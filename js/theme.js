@@ -1,9 +1,9 @@
 $(document).ready(function(){
 	
     var ww	= $(window),
-		wp	= $('.wrapper'),
-		sb	= $('.sidebar'),
-		fl  = $('.filter-left a');
+	wp	= $('.wrapper'),
+	sb	= $('.sidebar'),
+	f	= $('.filter-left a');
 	
 	
 	//anchors corresponding to menu items
