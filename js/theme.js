@@ -102,5 +102,7 @@ $(document).ready(function(){
 	//tool tips
 	$('.dctip').dcTip({background: "#eee", color: "#212"});
 	
+	//ie8 grid system fix
+	$('.grid3 li:nth-child(3n+0)').css({"margin-right": "0"});
 	
 });
